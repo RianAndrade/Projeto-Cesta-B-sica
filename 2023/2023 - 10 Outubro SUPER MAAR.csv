@@ -1,0 +1,76 @@
+Produto,Tipo,index,Marca1/Preço1,Marca2/Preço2,Marca3/Preço3,Total,Media,Quantidade/Int,Total/Int
+ARROZ (5kg),marca,1,Codil,Codisul,Total,Media,Quantidade,TOTAL,TOTAL
+,,1,26.15,26.96,,53.11,26.555,3,79.665
+FEIJÃO (1kg),marca,3,Codil,Amaral,Total,Media,Quantidade,TOTAL,
+,,3,5.1,,4.43,9.53,4.765,4,19.06
+AÇÚCAR (5kg),marca,5,Delta,Bruçúcar,Total,Media,Quantidade,TOTAL,
+,,5,18.96,,,18.96,18.96,2,37.92
+CAFÉ / em pó (500g),marca,7,3 Corações,Letícia,Total,Media,Quantidade,TOTAL,
+,,7,16.98,16.96,,33.94,16.97,3,50.91
+FARINHA DE TRIGO (1kg),marca,9,Globo,Dona Benta,Total,Media,Quantidade,TOTAL,
+,,9,5.99,,5.99,11.98,5.99,3,17.97
+FARINHA DE MAND. (1kg),marca,11,Codil,Pachá ,Total,Media,Quantidade,TOTAL,
+,,11,7.15,5.9,8.96,22.01,7.336666667,1,7.336666667
+BATATA (1kg),marca,13,Batata Inglesa,xxxxxxx,Total,Media,Quantidade,TOTAL,
+,,13,4.76,,,4.76,4.76,4,19.04
+CEBOLA (1kg),marca,15,Cebola,xxxxxxx,Total,Media,Quantidade,TOTAL,
+,,15,3.96,,,3.96,3.96,1,3.96
+TOMATE (1kg),marca,17,Tomate,xxxxxxx,Total,Media,Quantidade,TOTAL,
+,,17,5.96,,,5.96,5.96,9,53.64
+ALHO (1kg),marca,19,Alho,xxxxxxx,Total,Media,Quantidade,TOTAL,
+,,19,22.96,,,22.96,22.96,0.2,4.592
+OVOS (1 Dz.),marca,21,Branco,Vermelho,Total,Media,Quantidade,TOTAL,
+,,21,8.99,,,8.99,8.99,3,26.97
+MARGARINA (250g),marca,23,Becel,Doriana,Total,Media,Quantidade,TOTAL,
+,,23,,,4.65,4.65,4.65,4,18.6
+EXTRATO DE TOMATE (340g),marca,25,Santa Amália,Quero,Total,Media,Quantidade,TOTAL,
+,,25,,,5.19,5.19,5.19,2,10.38
+PÃO FRANCÊS (1kg),marca,27,Pão,xxxxxxx,Total,Media,Quantidade,TOTAL,
+,,27,13.99,,,13.99,13.99,6,83.94
+FRUTA / BANANA (1kg),marca,29,Prata,Caturra,Total,Media,Quantidade,TOTAL,
+,,29,,3.96,,3.96,3.96,7.5,29.7
+ÓLEO DE SOJA (900ml),marca,31,ABC,Soya,Total,Media,Quantidade,TOTAL,
+,,31,5.56,,,5.56,5.56,5,27.8
+LEITE (1L),marca,33,Itambé,Cemil,Total,Media,Quantidade,TOTAL,
+,,33,,5.36,5.36,10.72,5.36,7.5,40.2
+LEITE EM PÓ (400g),marca,35,Itambé,Nutri,Total,Media,Quantidade,TOTAL,
+,,35,19.99,19.96,,39.95,19.975,3,59.925
+MACARRÃO (pac. 500g),marca,37,Santa Amália,Yara,Total,Media,Quantidade,TOTAL,
+,,37,6.68,,5.99,12.67,6.335,4,25.34
+BISCOITO MAISENA (pac. 200g),marca,39,Bauducco ,Marilan,Total,Media,Quantidade,TOTAL,
+,,39,3.35,,3.23,6.58,3.29,4,13.16
+CARNE DE PRIMEIRA (1kg),marca,41,Contra-filé,lagarto,Total,Media,Quantidade,TOTAL,
+,,41,39.96,27.32,,67.28,33.64,3,100.92
+CARNE DE SEGUNDA (1kg),marca,43,Acém ,Costela,Total,Media,Quantidade,TOTAL,
+,,43,27.85,,,27.85,27.85,4,111.4
+FRANGO RESFRIADO INT. (1kg),marca,45,Frial,Sadia,Total,Media,Quantidade,TOTAL,
+,,45,17.75,,,17.75,17.75,5,88.75
+SALSICHA AVULSA (1kg),marca,47,Avivar,Sadia,Total,Media,Quantidade,TOTAL,
+,,47,6.96,,,6.96,6.96,0.5,3.48
+LINGUIÇA TOSCANA FRESCA (1kg),marca,49,Perdigão ,Sadia,Total,Media,Quantidade,TOTAL,
+,,49,16.98,,,16.98,16.98,0.3,5.094
+QUEIJO MUSSARELA FAT. (1kg),marca,51,Copatos,Quero,Total,Media,Quantidade,TOTAL,
+,,51,44.93,,,44.93,44.93,0.5,22.465
+,,53,,,Total,Media,Quantidade,TOTAL,962.2176667
+,,53,,,,,,,
+SABÃO EM PÓ (400g),marca,55,Tixan Ypê,Brilhante,Total,Media,Quantidade,TOTAL,
+,,55,6.76,,10.8,17.56,8.78,4,35.12
+SABÃO EM BARRA (unid.),marca,57,Ypê,Minuano,Total,Media,Quantidade,TOTAL,
+,,57,4.11,4.38,,8.49,4.245,15,63.675
+ÁGUA SANITÁRIA (1L),marca,59,Ypê,Tuff,Total,Media,Quantidade,TOTAL,
+,,59,4.56,,5.44,10,5,2,10
+DETERGENTE (500 ml),marca,61,Ypê,Minuano,Total,Media,Quantidade,TOTAL,
+,,61,2.76,2.63,,5.39,2.695,2,5.39
+,,63,,,Total,Media,Quantidade,TOTAL,114.185
+,,63,,,,,,,
+PAPEL HIGIÊNICO (pac. 4 unid.),marca,65,Valor,Mili Bianco ,Total,Media,Quantidade,TOTAL,
+,,65,,5.76,5.25,11.01,5.505,3,16.515
+CREME DENTAL (tubo 90g),marca,67,Colgate,Sorriso,Total,Media,Quantidade,TOTAL,
+,,67,5.79,5.44,,11.23,5.615,2,11.23
+SABONETE (90g),marca,69,Lux,Palmolive,Total,Media,Quantidade,TOTAL,
+,,69,3.4,3.4,,6.8,3.4,10,34
+DESODORANTE SPRAY (100ml),marca,71,Nivea,Monange ,Total,Media,Quantidade,TOTAL,
+,,71,18.96,14.21,,33.17,16.585,2,33.17
+ABSORVENTE (pac. 8 unid.),marca,73,Sym,Always,Total,Media,Quantidade,TOTAL,
+,,73,,,,,,,
+Valor Total,marca,78,,,,Total,400.6366667,,1176.502667

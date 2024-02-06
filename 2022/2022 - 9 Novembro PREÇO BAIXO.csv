@@ -1,0 +1,76 @@
+Produto,Tipo,index,Marca1/Preço1,Marca2/Preço2,Marca3/Preço3,Total,Media,Quantidade/Int,Total/Int
+ARROZ (5kg),marca,1,Codil,Codisul,Total,Media,Quantidade,TOTAL,TOTAL
+,,1,,,,0,#DIV/0!,3,#DIV/0!
+FEIJÃO (1kg),marca,3,Codil,Agrominas,Total,Media,Quantidade,TOTAL,
+,,3,,,,0,#DIV/0!,4,#DIV/0!
+AÇÚCAR (5kg),marca,5,Delta,Bruçúcar,Total,Media,Quantidade,TOTAL,
+,,5,,,,0,#DIV/0!,2,#DIV/0!
+CAFÉ / em pó (500g),marca,7,3 Corações,Letícia,Total,Media,Quantidade,TOTAL,
+,,7,,,,0,#DIV/0!,3,#DIV/0!
+FARINHA DE TRIGO (1kg),marca,9,Globo,Dona Benta,Total,Media,Quantidade,TOTAL,
+,,9,,,,0,#DIV/0!,3,#DIV/0!
+FARINHA DE MAND. (1kg),marca,11,Pachá,Ama Fil,Total,Media,Quantidade,TOTAL,
+,,11,,,,0,#DIV/0!,1,#DIV/0!
+BATATA (1kg),marca,13,Batata Inglesa,xxxxxxx,Total,Media,Quantidade,TOTAL,
+,,13,,,,0,#DIV/0!,4,#DIV/0!
+CEBOLA (1kg),marca,15,Cebola,xxxxxxx,Total,Media,Quantidade,TOTAL,
+,,15,0,,,0,0,1,0
+TOMATE (1kg),marca,17,Tomate,xxxxxxx,Total,Media,Quantidade,TOTAL,
+,,17,,,,0,#DIV/0!,9,#DIV/0!
+ALHO (1kg),marca,19,Alho,xxxxxxx,Total,Media,Quantidade,TOTAL,
+,,19,,,,0,#DIV/0!,0.2,#DIV/0!
+OVOS (1 Dz.),marca,21,Branco,Vermelho,Total,Media,Quantidade,TOTAL,
+,,21,,,,0,#DIV/0!,3,#DIV/0!
+MARGARINA (250g),marca,23,Qualy,Doriana,Total,Media,Quantidade,TOTAL,
+,,23,,,,0,#DIV/0!,4,#DIV/0!
+EXTRATO DE TOMATE (340g),marca,25,Santa Amália,Quero,Total,Media,Quantidade,TOTAL,
+,,25,,,,0,#DIV/0!,2,#DIV/0!
+PÃO FRANCÊS (1kg) preço da unidade,marca,27,Pão,xxxxxxx,Total,Media,Quantidade,TOTAL,
+,,27,,,,0,#DIV/0!,6,#DIV/0!
+FRUTA / BANANA (1kg),marca,29,Prata,Caturra,Total,Media,Quantidade,TOTAL,
+,,29,,,,0,#DIV/0!,7.5,#DIV/0!
+ÓLEO DE SOJA (900ml),marca,31,ABC,Soya,Total,Media,Quantidade,TOTAL,
+,,31,,,,0,#DIV/0!,5,#DIV/0!
+LEITE (1L),marca,33,Itambé,Cemil,Total,Media,Quantidade,TOTAL,
+,,33,,,,0,#DIV/0!,7.5,#DIV/0!
+LEITE EM PÓ (400g),marca,35,Itambé,Piracanjuba ,Total,Media,Quantidade,TOTAL,
+,,35,,,,0,#DIV/0!,3,#DIV/0!
+MACARRÃO (pac. 500g),marca,37,Santa Amália,Galo,Total,Media,Quantidade,TOTAL,
+,,37,,,,0,#DIV/0!,4,#DIV/0!
+BISCOITO MAISENA (pac. 200g),marca,39,Mabel,Marilan,Total,Media,Quantidade,TOTAL,
+,,39,,,,0,#DIV/0!,4,#DIV/0!
+CARNE DE PRIMEIRA (1kg),marca,41,Contra-filé,Alcatra,Total,Media,Quantidade,TOTAL,
+,,41,,,,0,#DIV/0!,3,#DIV/0!
+CARNE DE SEGUNDA (1kg),marca,43,Acém,Costela,Total,Media,Quantidade,TOTAL,
+,,43,,,,0,#DIV/0!,4,#DIV/0!
+FRANGO RESFRIADO INT. (1kg) congelado,marca,45,Fredini,Sadia,Total,Media,Quantidade,TOTAL,
+,,45,,,,0,#DIV/0!,5,#DIV/0!
+SALSICHA AVULSA (1kg),marca,47,Frial,Sadia,Total,Media,Quantidade,TOTAL,
+,,47,,,,0,#DIV/0!,0.5,#DIV/0!
+LINGUIÇA TOSCANA FRESCA (1kg),marca,49,Frial,Sadia,Total,Media,Quantidade,TOTAL,
+,,49,,,,0,#DIV/0!,0.3,#DIV/0!
+QUEIJO MUSSARELA FAT. (1kg),marca,51,Vida,Quero,Total,Media,Quantidade,TOTAL,
+,,51,,,,0,#DIV/0!,0.5,#DIV/0!
+,,53,,,Total,Media,Quantidade,TOTAL,#DIV/0!
+,,53,,,,,,,
+SABÃO EM PÓ (400g),marca,55,Tixan Ypê,Brilhante,Total,Media,Quantidade,TOTAL,
+,,55,,,,0,#DIV/0!,4,#DIV/0!
+SABÃO EM BARRA (unid.),marca,57,Ypê,Minuano,Total,Media,Quantidade,TOTAL,
+,,57,,,,0,#DIV/0!,15,#DIV/0!
+ÁGUA SANITÁRIA (1L),marca,59,Ypê,Qboa,Total,Media,Quantidade,TOTAL,
+,,59,,,,0,#DIV/0!,2,#DIV/0!
+DETERGENTE (500 ml),marca,61,Ypê,Minuano,Total,Media,Quantidade,TOTAL,
+,,61,,,,0,#DIV/0!,2,#DIV/0!
+,,63,,,Total,Media,Quantidade,TOTAL,#DIV/0!
+,,63,,,,,,,
+PAPEL HIGIÊNICO (pac. 4 unid.),marca,65,Paradiso,Valor,Total,Media,Quantidade,TOTAL,
+,,65,,,,0,#DIV/0!,3,#DIV/0!
+CREME DENTAL (tubo 70g),marca,67,Colgate,Sorriso,Total,Media,Quantidade,TOTAL,
+,,67,,,,0,#DIV/0!,2,#DIV/0!
+SABONETE (85g),marca,69,Lux,Palmolive,Total,Media,Quantidade,TOTAL,
+,,69,,,,0,#DIV/0!,10,#DIV/0!
+DESODORANTE SPRAY (100ml),marca,71,Rexona (Masc.),Monange (Fem.),Total,Media,Quantidade,TOTAL,
+,,71,,,,0,#DIV/0!,2,#DIV/0!
+ABSORVENTE (pac. 8 unid.),marca,73,Sym,Intimus,Total,Media,Quantidade,TOTAL,
+,,73,,,,,,,
+Valor Total,marca,78,,,,Total,#DIV/0!,,#DIV/0!

@@ -1,0 +1,76 @@
+Produto,Tipo,index,Marca1/Preço1,Marca2/Preço2,Marca3/Preço3,Total,Media,Quantidade/Int,Total/Int
+ARROZ (5kg),marca,1,Alegrete ,Codisul,Total,Media,Quantidade,TOTAL,TOTAL
+,,1,19.9,22.9,19.9,62.7,20.9,3,62.7
+FEIJÃO (1kg),marca,3,Carioca,Agrominas,Total,Media,Quantidade,TOTAL,
+,,3,8.9,8.99,8.99,26.88,8.96,4,35.84
+AÇÚCAR (5kg),marca,5,Delta,Cristal,Total,Media,Quantidade,TOTAL,
+,,5,16,16.48,,32.48,16.24,2,32.48
+CAFÉ / em pó (500g),marca,7,3 Corações,Letícia,Total,Media,Quantidade,TOTAL,
+,,7,8.4,7.99,7.99,24.38,8.126666667,3,24.38
+FARINHA DE TRIGO (1kg),marca,9,Globo,Dona Benta,Total,Media,Quantidade,TOTAL,
+,,9,0,5.99,6.28,12.27,4.09,3,12.27
+FARINHA DE MAND. (1kg),marca,11,Xap,Ama Fil,Total,Media,Quantidade,TOTAL,
+,,11,7.8,0,0,7.8,2.6,1,2.6
+BATATA (1kg),marca,13,Batata Inglesa,xxxxxxx,Total,Media,Quantidade,TOTAL,
+,,13,3.98,,,3.98,3.98,4,15.92
+CEBOLA (1kg),marca,15,Cebola,xxxxxxx,Total,Media,Quantidade,TOTAL,
+,,15,3.98,,,3.98,3.98,1,3.98
+TOMATE (1kg),marca,17,Tomate,xxxxxxx,Total,Media,Quantidade,TOTAL,
+,,17,6.98,,,6.98,6.98,9,62.82
+ALHO (1kg),marca,19,Alho,xxxxxxx,Total,Media,Quantidade,TOTAL,
+,,19,12.9,,,12.9,12.9,0.2,2.58
+OVOS (1 Dz.),marca,21,Branco,Vermelho,Total,Media,Quantidade,TOTAL,
+,,21,16.9,26.9,,43.8,21.9,3,65.7
+MARGARINA (250g),marca,23,Qualy,Doriana,Total,Media,Quantidade,TOTAL,
+,,23,5.49,4.79,4.48,14.76,4.92,4,19.68
+EXTRATO DE TOMATE (340g),marca,25,Fugini,Quero,Total,Media,Quantidade,TOTAL,
+,,25,3.28,0,0,3.28,1.093333333,2,2.186666667
+PÃO FRANCÊS (1kg),marca,27,Pão,xxxxxxx,Total,Media,Quantidade,TOTAL,
+,,27,10.9,,,10.9,10.9,6,65.4
+FRUTA / BANANA (1kg),marca,29,Prata,Caturra,Total,Media,Quantidade,TOTAL,
+,,29,6.79,3.69,,6.79,6.79,7.5,50.925
+ÓLEO DE SOJA (900ml),marca,31,ABC,Liza,Total,Media,Quantidade,TOTAL,
+,,31,6.98,6.98,0,13.96,4.653333333,5,23.26666667
+LEITE (1L),marca,33,Itambé,Cemil,Total,Media,Quantidade,TOTAL,
+,,33,4.98,4.38,4.48,13.84,4.613333333,7.5,34.6
+LEITE EM PÓ (450g),marca,35,Itambé,Nutril,Total,Media,Quantidade,TOTAL,
+,,35,28.9,0,21.9,50.8,16.93333333,3,50.8
+MACARRÃO (pac. 500g),marca,37,Santa Amália,Yara,Total,Media,Quantidade,TOTAL,
+,,37,4.65,0,3.99,8.64,2.88,4,11.52
+BISCOITO MAISENA (pac. 200g),marca,39,Mabel,Marilan,Total,Media,Quantidade,TOTAL,
+,,39,0,0,2.75,2.75,0.9166666667,4,3.666666667
+CARNE DE PRIMEIRA (1kg),marca,41,Contra-filé,Alcatra,Total,Media,Quantidade,TOTAL,
+,,41,47.9,39.9,36.98,124.78,41.59333333,3,124.78
+CARNE DE SEGUNDA (1kg),marca,43,Acém,Costela,Total,Media,Quantidade,TOTAL,
+,,43,26.98,25.9,29.9,82.78,27.59333333,4,110.3733333
+FRANGO RESFRIADO INT. (1kg),marca,45,Frial,Princesa,Total,Media,Quantidade,TOTAL,
+,,45,7.98,6.98,,14.96,7.48,5,37.4
+SALSICHA AVULSA (1kg),marca,47,Frial,Sadia,Total,Media,Quantidade,TOTAL,
+,,47,6.78,9.5,8.98,25.26,8.42,0.5,4.21
+LINGUIÇA TOSCANA FRESCA (1kg),marca,49,Frial,Sadia,Total,Media,Quantidade,TOTAL,
+,,49,0,15.98,0,15.98,5.326666667,0.3,1.598
+QUEIJO MUSSARELA FAT. (1kg),marca,51,Copatos,Quero,Total,Media,Quantidade,TOTAL,
+,,51,0,37.98,0,37.98,12.66,0.5,6.33
+,,53,,,Total,Media,Quantidade,TOTAL,868.0063333
+,,53,,,,,,,
+SABÃO EM PÓ (500g),marca,55,Tixan Ypê,Brilhante,Total,Media,Quantidade,TOTAL,
+,,55,6.49,0,6.95,13.44,4.48,4,17.92
+SABÃO EM BARRA (unid.),marca,57,Ypê,Razzo,Total,Media,Quantidade,TOTAL,
+,,57,3.8,3.49,,7.29,3.645,15,54.675
+ÁGUA SANITÁRIA (1L),marca,59,Super globo,Santa Clara,Total,Media,Quantidade,TOTAL,
+,,59,3.4,3.95,0,7.35,2.45,2,4.9
+DETERGENTE (500 ml),marca,61,Ypê,Minuano,Total,Media,Quantidade,TOTAL,
+,,61,2.49,0,2.28,4.77,1.59,2,3.18
+,,63,,,Total,Media,Quantidade,TOTAL,80.675
+,,63,,,,,,,
+PAPEL HIGIÊNICO (pac. 4 unid.),marca,65,Zapel,Elite,Total,Media,Quantidade,TOTAL,
+,,65,6,6.5,6.50,12.5,6.25,3,18.75
+CREME DENTAL (tubo 90g),marca,67,Colgate,Sorriso,Total,Media,Quantidade,TOTAL,
+,,67,4.98,5.95,,10.93,5.465,2,10.93
+SABONETE (90g),marca,69,Lux,Palmolive,Total,Media,Quantidade,TOTAL,
+,,69,2.29,3.98,,6.27,3.135,10,31.35
+DESODORANTE SPRAY (100ml),marca,71,Rexona (Masc.),Monange (Fem.),Total,Media,Quantidade,TOTAL,
+,,71,12.9,9.45,,22.35,11.175,2,22.35
+ABSORVENTE (pac. 8 unid.),marca,73,Alwarys,Intimus,Total,Media,Quantidade,TOTAL,
+,,73,,,,,,,
+Valor Total,marca,78,,,,TOTAL,312.84,,1039.281333

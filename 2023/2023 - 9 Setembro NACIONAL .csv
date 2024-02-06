@@ -1,0 +1,76 @@
+Produto,Tipo,index,Marca1/Preço1,Marca2/Preço2,Marca3/Preço3,Total,Media,Quantidade/Int,Total/Int
+ARROZ (5kg),marca,1,Codil,Codisul,Total,Media,Quantidade,TOTAL,TOTAL
+,,1,26.49,22.99,22.99,72.47,24.15666667,3,72.47
+FEIJÃO (1kg),marca,3,Codil,Agrominas,Total,Media,Quantidade,TOTAL,
+,,3,24.99,,,24.99,24.99,4,99.96
+AÇÚCAR (5kg),marca,5,Delta,Laçúcar,Total,Media,Quantidade,TOTAL,
+,,5,20.99,20.99,20.99,62.97,20.99,2,41.98
+CAFÉ / em pó (500g),marca,7,3 Corações,Letícia,Total,Media,Quantidade,TOTAL,
+,,7,18.99,16.98,16.48,52.45,17.48333333,3,52.45
+FARINHA DE TRIGO (1kg),marca,9,Globo,Dona Benta,Total,Media,Quantidade,TOTAL,
+,,9,5.79,,,5.79,5.79,3,17.37
+FARINHA DE MAND. (1kg),marca,11,Codil ,Ama Fil,Total,Media,Quantidade,TOTAL,
+,,11,,,9.4,9.4,9.4,1,9.4
+BATATA (1kg),marca,13,Batata Ingles,xxxxxxx,Total,Media,Quantidade,TOTAL,
+,,13,3.59,,,3.59,3.59,4,14.36
+CEBOLA (1kg),marca,15,Cebola,xxxxxxx,Total,Media,Quantidade,TOTAL,
+,,15,3.59,,,3.59,3.59,1,3.59
+TOMATE (1kg),marca,17,Tomate,xxxxxxx,Total,Media,Quantidade,TOTAL,
+,,17,5.4,,,5.4,5.4,9,48.6
+ALHO (1kg),marca,19,Alho,xxxxxxx,Total,Media,Quantidade,TOTAL,
+,,19,23.99,,,23.99,23.99,0.2,4.798
+OVOS (1 Dz.),marca,21,Branco,Vermelho,Total,Media,Quantidade,TOTAL,
+,,21,23.23,23.23,,46.46,23.23,3,69.69
+MARGARINA (250g),marca,23,Qualy,Doriana,Total,Media,Quantidade,TOTAL,
+,,23,4.19,4.19,4.19,12.57,4.19,4,16.76
+EXTRATO DE TOMATE (350g),marca,25,Santa Amália,Minas,Total,Media,Quantidade,TOTAL,
+,,25,5,5,5,15,5,2,10
+PÃO FRANCÊS (1kg),marca,27,Pão,xxxxxxx,Total,Media,Quantidade,TOTAL,
+,,27,13.99,,,13.99,13.99,6,83.94
+FRUTA / BANANA (1kg),marca,29,Prata,Caturra,Total,Media,Quantidade,TOTAL,
+,,29,3.65,3.65,,7.3,3.65,7.5,27.375
+ÓLEO DE SOJA (900ml),marca,31,ABC,Soya,Total,Media,Quantidade,TOTAL,
+,,31,6.99,,,6.99,6.99,5,34.95
+LEITE (1L),marca,33,Cemil,Itambé ,Total,Media,Quantidade,TOTAL,
+,,33,5.69,5.69,5.69,17.07,5.69,7.5,42.675
+LEITE EM PÓ (400g),marca,35,Itambé,Nutril,Total,Media,Quantidade,TOTAL,
+,,35,16.99,,,16.99,16.99,3,50.97
+MACARRÃO (pac. 500g),marca,37,Santa Amália,Mara,Total,Media,Quantidade,TOTAL,
+,,37,5.59,3.89,5.59,15.07,5.023333333,4,20.09333333
+BISCOITO MAISENA (pac. 200g),marca,39,Mabel,Marilan,Total,Media,Quantidade,TOTAL,
+,,39,3.49,3.49,3.49,10.47,3.49,4,13.96
+CARNE DE PRIMEIRA (1kg),marca,41,Lagarto,Alcatra,Total,Media,Quantidade,TOTAL,
+,,41,41,,,41,41,3,123
+CARNE DE SEGUNDA (1kg),marca,43,Paleta ,Costela,Total,Media,Quantidade,TOTAL,
+,,43,36,36,,72,36,4,144
+FRANGO RESFRIADO INT. (1kg),marca,45,Cogran,Sadia,Total,Media,Quantidade,TOTAL,
+,,45,8.85,,,8.85,8.85,5,44.25
+SALSICHA AVULSA (1kg),marca,47,Avivar,Sadia,Total,Media,Quantidade,TOTAL,
+,,47,12.6,,,12.6,12.6,0.5,6.3
+LINGUIÇA TOSCANA FRESCA (1kg),marca,49,Suíno ,Sadia,Total,Media,Quantidade,TOTAL,
+,,49,18.99,,,18.99,18.99,0.3,5.697
+QUEIJO MUSSARELA FAT. (1kg),marca,51,Saborosa,Coopatos,Total,Media,Quantidade,TOTAL,
+,,51,44.99,,,44.99,44.99,0.5,22.495
+,,53,,,Total,Media,Quantidade,TOTAL,1081.133333
+,,53,,,,,,,
+SABÃO EM PÓ (400g),marca,55,Tixan Ypê,Minuano ,Total,Media,Quantidade,TOTAL,
+,,55,6.79,6.79,6.79,20.37,6.79,4,27.16
+SABÃO EM BARRA (unid.),marca,57,Ypê,Minuano,Total,Media,Quantidade,TOTAL,
+,,57,3.75,3.75,,7.5,3.75,15,56.25
+ÁGUA SANITÁRIA (1L),marca,59,Ypê,Valor,Total,Media,Quantidade,TOTAL,
+,,59,4.99,4.2,4.2,13.39,4.463333333,2,8.926666667
+DETERGENTE (500 ml),marca,61,Ypê,Minuano,Total,Media,Quantidade,TOTAL,
+,,61,2.79,2.79,2.79,8.37,2.79,2,5.58
+,,63,,,Total,Media,Quantidade,TOTAL,97.91666667
+,,63,,,,,,,
+PAPEL HIGIÊNICO (pac. 4 unid.),marca,65,Valor,Bob,Total,Media,Quantidade,TOTAL,
+,,65,3.99,3.99,8.49,16.47,5.49,3,16.47
+CREME DENTAL (tubo 90g),marca,67,Colgate,Sorriso,Total,Media,Quantidade,TOTAL,
+,,67,5.7,5.7,,11.4,5.7,2,11.4
+SABONETE (90g),marca,69,Lux,Palmolive,Total,Media,Quantidade,TOTAL,
+,,69,2.8,3.3,2.4,8.5,2.833333333,10,28.33333333
+DESODORANTE SPRAY (100ml),marca,71,Rexona ,Monange ,Total,Media,Quantidade,TOTAL,
+,,71,0,0,,0,0,2,0
+ABSORVENTE (pac. 8 unid.),marca,73,Sym,Intimus,Total,Media,Quantidade,TOTAL,
+,,73,,,,,,,
+Valor Total,marca,78,,,,Total,425.86,,1239.243333

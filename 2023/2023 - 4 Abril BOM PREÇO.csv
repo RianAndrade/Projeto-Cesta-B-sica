@@ -1,0 +1,76 @@
+Produto,Tipo,index,Marca1/Preço1,Marca2/Preço2,Marca3/Preço3,Total,Media,Quantidade/Int,Total/Int
+ARROZ (5kg),marca,1,Codil,Codisul,Total,Media,Quantidade,TOTAL,TOTAL
+,,1,21.79,21.79,21.79,65.37,21.79,3,65.37
+FEIJÃO (1kg),marca,3,Codil,Agrominas,Total,Media,Quantidade,TOTAL,
+,,3,10.79,8.98,8.98,28.75,9.583333333,4,38.33333333
+AÇÚCAR (5kg),marca,5,Delta,Bruçúcar,Total,Media,Quantidade,TOTAL,
+,,5,16.68,16.68,16.68,50.04,16.68,2,33.36
+CAFÉ / em pó (500g),marca,7,3 Corações,Letícia,Total,Media,Quantidade,TOTAL,
+,,7,17.99,16.99,16.58,51.56,17.18666667,3,51.56
+FARINHA DE TRIGO (1kg),marca,9,Globo,Dona Benta,Total,Media,Quantidade,TOTAL,
+,,9,5.99,5.99,5.99,17.97,5.99,3,17.97
+FARINHA DE MAND. (1kg),marca,11,Lopes,Ama Fil,Total,Media,Quantidade,TOTAL,
+,,11,8.39,8.39,8.39,25.17,8.39,1,8.39
+BATATA (1kg),marca,13,Batata Inglesa,xxxxxxx,Total,Media,Quantidade,TOTAL,
+,,13,4.99,,,4.99,4.99,4,19.96
+CEBOLA (1kg),marca,15,Cebola,xxxxxxx,Total,Media,Quantidade,TOTAL,
+,,15,4.49,,,4.49,4.49,1,4.49
+TOMATE (1kg),marca,17,Tomate,xxxxxxx,Total,Media,Quantidade,TOTAL,
+,,17,7.19,,,7.19,7.19,9,64.71
+ALHO (1kg),marca,19,Alho,xxxxxxx,Total,Media,Quantidade,TOTAL,
+,,19,16.99,,,16.99,16.99,0.2,3.398
+OVOS (1 Dz.),marca,21,Branco,Vermelho,Total,Media,Quantidade,TOTAL,
+,,21,9.19,,,9.19,9.19,3,27.57
+MARGARINA (250g),marca,23,Qualy,Claybom ,Total,Media,Quantidade,TOTAL,
+,,23,5.69,3.98,4.39,14.06,4.686666667,4,18.74666667
+EXTRATO DE TOMATE (300g),marca,25,Fugini ,Elefante ,Total,Media,Quantidade,TOTAL,
+,,25,2.69,5.59,3.09,11.37,3.79,2,7.58
+PÃO FRANCÊS (1kg),marca,27,Pão,xxxxxxx,Total,Media,Quantidade,TOTAL,
+,,27,13.99,,,13.99,13.99,6,83.94
+FRUTA / BANANA (1kg),marca,29,Prata,Caturra,Total,Media,Quantidade,TOTAL,
+,,29,4.99,3.3,,8.29,4.145,7.5,31.0875
+ÓLEO DE SOJA (900ml),marca,31,ABC,Liza,Total,Media,Quantidade,TOTAL,
+,,31,7.19,7.88,,15.07,7.535,5,37.675
+LEITE (1L),marca,33,Itambé,Cemil,Total,Media,Quantidade,TOTAL,
+,,33,5.99,4.99,5.29,16.27,5.423333333,7.5,40.675
+LEITE EM PÓ (400g),marca,35,Itambé,Nutril,Total,Media,Quantidade,TOTAL,
+,,35,18.69,18.69,13.99,51.37,17.12333333,3,51.37
+MACARRÃO (pac. 500g),marca,37,Santa Amália,Yara,Total,Media,Quantidade,TOTAL,
+,,37,4.69,3.99,5.29,13.97,4.656666667,4,18.62666667
+BISCOITO MAISENA (pac. 200g),marca,39,Mabel,Marilan,Total,Media,Quantidade,TOTAL,
+,,39,3.35,3.35,3.35,10.05,3.35,4,13.4
+CARNE DE PRIMEIRA (1kg),marca,41,Contra-filé,Alcatra,Total,Media,Quantidade,TOTAL,
+,,41,44.99,44.99,39.99,129.97,43.32333333,3,129.97
+CARNE DE SEGUNDA (1kg),marca,43,Acém,Paleta,Total,Media,Quantidade,TOTAL,
+,,43,31.98,29.98,29.98,91.94,30.64666667,4,122.5866667
+FRANGO RESFRIADO INT. (1kg),marca,45,Frial,Sadia,Total,Media,Quantidade,TOTAL,
+,,45,10.99,10.99,10.99,32.97,10.99,5,54.95
+SALSICHA AVULSA (1kg),marca,47,Friall,Sadia,Total,Media,Quantidade,TOTAL,
+,,47,9.99,13.99,13.99,37.97,12.65666667,0.5,6.328333333
+LINGUIÇA TOSCANA FRESCA (1kg),marca,49,Perdigão ,Sadia,Total,Media,Quantidade,TOTAL,
+,,49,18.89,18.89,14.98,52.76,17.58666667,0.3,5.276
+QUEIJO MUSSARELA FAT. (1kg),marca,51,Saboroso,Quero,Total,Media,Quantidade,TOTAL,
+,,51,44.49,45.99,45.99,136.47,45.49,0.5,22.745
+,,53,,,Total,Media,Quantidade,TOTAL,980.0681667
+,,53,,,,,,,
+SABÃO EM PÓ (400g),marca,55,Tixan Ypê,Brilhante,Total,Media,Quantidade,TOTAL,
+,,55,6.79,6.29,6.29,19.37,6.456666667,4,25.82666667
+SABÃO EM BARRA (unid.),marca,57,Minuano ,Ypê ,Total,Media,Quantidade,TOTAL,
+,,57,3.79,4.79,,8.58,4.29,15,64.35
+ÁGUA SANITÁRIA (1L),marca,59,Ypê,Qboa ,Total,Media,Quantidade,TOTAL,
+,,59,5.19,4.69,4.69,14.57,4.856666667,2,9.713333333
+DETERGENTE (500 ml),marca,61,Ypê,Polylar ,Total,Media,Quantidade,TOTAL,
+,,61,2.49,1.69,2.49,6.67,2.223333333,2,4.446666667
+,,63,,,Total,Media,Quantidade,TOTAL,104.3366667
+,,63,,,,,,,
+PAPEL HIGIÊNICO (pac. 4 unid.),marca,65,Paradiso,Mili,Total,Media,Quantidade,TOTAL,
+,,65,6.9,7.15,7.15,21.2,7.066666667,3,21.2
+CREME DENTAL (tubo 90g),marca,67,Colgate,Sorriso,Total,Media,Quantidade,TOTAL,
+,,67,4.99,5.19,4.49,14.67,4.89,2,9.78
+SABONETE (90g),marca,69,Lux,Palmolive,Total,Media,Quantidade,TOTAL,
+,,69,2.59,3.19,1.99,7.77,2.59,10,25.9
+DESODORANTE SPRAY (100ml),marca,71,Rexona ,Monange ,Total,Media,Quantidade,TOTAL,
+,,71,11.99,11.99,14.99,38.97,12.99,2,25.98
+ABSORVENTE (pac. 8 unid.),marca,73,Sym,Intimus,Total,Media,Quantidade,TOTAL,
+,,73,,,,,,,
+Valor Total,marca,78,,,,Total,397.5616667,,1171.599833
