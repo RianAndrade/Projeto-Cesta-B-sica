@@ -1,76 +1,76 @@
-Produto,Tipo,index,Marca1/Preço1,Marca2/Preço2,Marca3/Preço3,Total,Media,Quantidade/Int,Total/Int
-ARROZ (5kg),marca,1,Codil,Codisul,Total,Media,Quantidade,TOTAL,TOTAL
-,,1,13.98,13.98,13.98,41.94,13.98,3,41.94
-FEIJÃO (1kg),marca,3,Codil,Agrominas,Total,Media,Quantidade,TOTAL,
-,,3,6.9,6.9,6.9,20.7,6.9,4,27.6
-AÇÚCAR (5kg),marca,5,Delta,Bruçúcar,Total,Media,Quantidade,TOTAL,
-,,5,17.98,17.98,17.98,53.94,17.98,2,35.96
-CAFÉ / em pó (500g),marca,7,3 Corações,Letícia,Total,Media,Quantidade,TOTAL,
-,,7,16.98,16.98,16.98,50.94,16.98,3,50.94
-FARINHA DE TRIGO (1kg),marca,9,Globo,Dona Benta,Total,Media,Quantidade,TOTAL,
-,,9,4.98,4.98,4.98,14.94,4.98,3,14.94
-FARINHA DE MAND. (1kg),marca,11,XAP,Ama Fil,Total,Media,Quantidade,TOTAL,
-,,11,4.38,4.38,4.38,13.14,4.38,1,4.38
-BATATA (1kg),marca,13,Batata Inglesa,xxxxxxx,Total,Media,Quantidade,TOTAL,
-,,13,6.78,,,6.78,6.78,4,27.12
-CEBOLA (1kg),marca,15,Cebola,xxxxxxx,Total,Media,Quantidade,TOTAL,
-,,15,5.98,,,5.98,5.98,1,5.98
-TOMATE (1kg),marca,17,Tomate,xxxxxxx,Total,Media,Quantidade,TOTAL,
-,,17,7.99,,,7.99,7.99,9,71.91
-ALHO (1kg),marca,19,Alho,xxxxxxx,Total,Media,Quantidade,TOTAL,
-,,19,19.99,,,19.99,19.99,0.2,3.998
-OVOS (1 Dz.),marca,21,Branco,Vermelho,Total,Media,Quantidade,TOTAL,
-,,21,8.99,,,8.99,8.99,3,26.97
-MARGARINA (250g),marca,23,Qualy,Doriana,Total,Media,Quantidade,TOTAL,
-,,23,3.58,3.58,3.58,10.74,3.58,4,14.32
-EXTRATO DE TOMATE (340g),marca,25,Santa Amália,Quero,Total,Media,Quantidade,TOTAL,
-,,25,1.68,1.68,1.68,5.04,1.68,2,3.36
-PÃO FRANCÊS (1kg),marca,27,Pão,xxxxxxx,Total,Media,Quantidade,TOTAL,
-,,27,9.98,,,9.98,9.98,6,59.88
-FRUTA / BANANA (1kg),marca,29,Prata,Caturra,Total,Media,Quantidade,TOTAL,
-,,29,3.69,3.69,,7.38,3.69,7.5,27.675
-ÓLEO DE SOJA (900ml),marca,31,ABC,Soya,Total,Media,Quantidade,TOTAL,
-,,31,9.58,9.58,9.58,28.74,9.58,5,47.9
-LEITE (1L),marca,33,Itambé,Cemil,Total,Media,Quantidade,TOTAL,
-,,33,3.98,3.98,3.98,11.94,3.98,7.5,29.85
-LEITE EM PÓ (450g),marca,35,Itambé,Nutril,Total,Media,Quantidade,TOTAL,
-,,35,12.8,12.8,12.8,38.4,12.8,3,38.4
-MACARRÃO (pac. 500g),marca,37,Santa Amália,Yara,Total,Media,Quantidade,TOTAL,
-,,37,3.68,3.68,3.68,11.04,3.68,4,14.72
-BISCOITO MAISENA (pac. 200g),marca,39,Mabel,Marilan,Total,Media,Quantidade,TOTAL,
-,,39,2.58,2.58,2.58,7.74,2.58,4,10.32
-CARNE DE PRIMEIRA (1kg),marca,41,Contra-filé,Alcatra,Total,Media,Quantidade,TOTAL,
-,,41,32.8,32.8,32.8,98.4,32.8,3,98.4
-CARNE DE SEGUNDA (1kg),marca,43,Acém,Costela,Total,Media,Quantidade,TOTAL,
-,,43,27.8,27.8,27.8,83.4,27.8,4,111.2
-FRANGO RESFRIADO INT. (1kg),marca,45,Frial,Sadia,Total,Media,Quantidade,TOTAL,
-,,45,12.8,12.8,,25.6,12.8,5,64
-SALSICHA AVULSA (1kg),marca,47,Frial,Sadia,Total,Media,Quantidade,TOTAL,
-,,47,7.48,7.48,7.48,22.44,7.48,0.5,3.74
-LINGUIÇA TOSCANA FRESCA (1kg),marca,49,Frial,Sadia,Total,Media,Quantidade,TOTAL,
-,,49,12.9,12.9,12.9,38.7,12.9,0.3,3.87
-QUEIJO MUSSARELA FAT. (1kg),marca,51,Copatos,Quero,Total,Media,Quantidade,TOTAL,
-,,51,28.9,28.9,28.9,86.7,28.9,0.5,14.45
-,,53,,,Total,Media,Quantidade,TOTAL,853.823
-,,53,,,,,,,
-SABÃO EM PÓ (500g),marca,55,Tixan Ypê,Brilhante,Total,Media,Quantidade,TOTAL,
-,,55,4.45,4.45,4.45,13.35,4.45,4,17.8
-SABÃO EM BARRA (unid.),marca,57,Ypê,Minuano,Total,Media,Quantidade,TOTAL,
-,,57,2.38,2.38,,4.76,2.38,15,35.7
-ÁGUA SANITÁRIA (1L),marca,59,Ypê,Super globo,Total,Media,Quantidade,TOTAL,
-,,59,3.4,3.4,3.4,10.2,3.4,2,6.8
-DETERGENTE (500 ml),marca,61,Ypê,Minuano,Total,Media,Quantidade,TOTAL,
-,,61,1.95,1.95,1.95,5.85,1.95,2,3.9
-,,63,,,Total,Media,Quantidade,TOTAL,64.2
-,,63,,,,,,,
-PAPEL HIGIÊNICO (pac. 4 unid.),marca,65,Paradiso,Bob,Total,Media,Quantidade,TOTAL,
-,,65,4.9,4.9,4.9,14.7,4.9,3,14.7
-CREME DENTAL (tubo 90g),marca,67,Colgate,Sorriso,Total,Media,Quantidade,TOTAL,
-,,67,3.49,3.49,,6.98,3.49,2,6.98
-SABONETE (90g),marca,69,Lux,Palmolive,Total,Media,Quantidade,TOTAL,
-,,69,1.19,1.19,1.19,3.57,1.19,10,11.9
-DESODORANTE SPRAY (100ml),marca,71,Rexona ,Monange,Total,Media,Quantidade,TOTAL,
-,,71,8.9,8.9,,17.8,8.9,2,17.8
-ABSORVENTE (pac. 8 unid.),marca,73,Sym,Intimus,Total,Media,Quantidade,TOTAL,
-,,73,,,,,,,
-Valor Total,marca,78,,,,Total,322.62,,972.203
+Produto,Tipo,Marca1/Preço1,Marca2/Preço2,Marca3/Preço3,Total,Media,Quantidade/Int,Total/Int
+ARROZ (5kg),marca,Codil,Codisul,Sepé,Total,Media,Quantidade	,TOTAL
+ARROZ (5kg),preço,13.98,13.98,13.98,41.94,13.98,3,41.94
+FEIJÃO (1kg),marca,Codil,Agrominas,Eldorado,Total,Media,Quantidade	,TOTAL
+FEIJÃO (1kg),preço,6.9,6.9,6.9,20.7,6.9,4,27.6
+AÇÚCAR (5kg),marca,Delta,Bruçúcar,Gran Petit,Total,Media,Quantidade	,TOTAL
+AÇÚCAR (5kg),preço,17.98,17.98,17.98,53.94,17.98,2,35.96
+CAFÉ / em pó (500g),marca,3 Corações,Letícia,Fino Grão,Total,Media,Quantidade	,TOTAL
+CAFÉ / em pó (500g),preço,16.98,16.98,16.98,50.94,16.98,3,50.94
+FARINHA DE TRIGO (1kg),marca,Globo,Dona Benta,Vilma,Total,Media,Quantidade	,TOTAL
+FARINHA DE TRIGO (1kg),preço,4.98,4.98,4.98,14.94,4.98,3,14.94
+FARINHA DE MAND. (1kg),marca,XAP,Ama Fil,Agric./famíliar,Total,Media,Quantidade	,TOTAL
+FARINHA DE MAND. (1kg),preço,4.38,4.38,4.38,13.14,4.38,1,4.38
+BATATA (1kg),marca,Batata Inglesa,xxxxxxx,xxxxxxx,Total,Media,Quantidade	,TOTAL
+BATATA (1kg),preço,6.78,,,6.78,6.78,4,27.12
+CEBOLA (1kg),marca,Cebola,xxxxxxx,xxxxxxx,Total,Media,Quantidade	,TOTAL
+CEBOLA (1kg),preço,5.98,,,5.98,5.98,1,5.98
+TOMATE (1kg),marca,Tomate,xxxxxxx,xxxxxxx,Total,Media,Quantidade	,TOTAL
+TOMATE (1kg),preço,7.99,,,7.99,7.99,9,71.91
+ALHO (1kg),marca,Alho,xxxxxxx,xxxxxxx,Total,Media,Quantidade	,TOTAL
+ALHO (1kg),preço,19.99,,,19.99,19.99,0.2,3.998
+OVOS (1 Dz.),marca,Branco,Vermelho,xxxxxxx,Total,Media,Quantidade	,TOTAL
+OVOS (1 Dz.),preço,8.99,,,8.99,8.99,3,26.97
+MARGARINA (250g),marca,Qualy,Doriana,Delícia,Total,Media,Quantidade	,TOTAL
+MARGARINA (250g),preço,3.58,3.58,3.58,10.74,3.58,4,14.32
+EXTRATO DE TOMATE (340g),marca,Santa Amália,Quero,Colonial,Total,Media,Quantidade	,TOTAL
+EXTRATO DE TOMATE (340g),preço,1.68,1.68,1.68,5.04,1.68,2,3.36
+PÃO FRANCÊS (1kg),marca,Pão,xxxxxxx,xxxxxxx,Total,Media,Quantidade	,TOTAL
+PÃO FRANCÊS (1kg),preço,9.98,,,9.98,9.98,6,59.88
+FRUTA / BANANA (1kg),marca,Prata,Caturra,xxxxxxx,Total,Media,Quantidade	,TOTAL
+FRUTA / BANANA (1kg),preço,3.69,3.69,,7.38,3.69,7.5,27.675
+ÓLEO DE SOJA (900ml),marca,ABC,Soya,Corcovado,Total,Media,Quantidade	,TOTAL
+ÓLEO DE SOJA (900ml),preço,9.58,9.58,9.58,28.74,9.58,5,47.9
+LEITE (1L),marca,Itambé,Cemil,Camponesa,Total,Media,Quantidade	,TOTAL
+LEITE (1L),preço,3.98,3.98,3.98,11.94,3.98,7.5,29.85
+LEITE EM PÓ (450g),marca,Itambé,Nutril,Camponesa,Total,Media,Quantidade	,TOTAL
+LEITE EM PÓ (450g),preço,12.8,12.8,12.8,38.4,12.8,3,38.4
+MACARRÃO (pac. 500g),marca,Santa Amália,Yara,Vilma,Total,Media,Quantidade	,TOTAL
+MACARRÃO (pac. 500g),preço,3.68,3.68,3.68,11.04,3.68,4,14.72
+BISCOITO MAISENA (pac. 200g),marca,Mabel,Marilan,Aymoré,Total,Media,Quantidade	,TOTAL
+BISCOITO MAISENA (pac. 200g),preço,2.58,2.58,2.58,7.74,2.58,4,10.32
+CARNE DE PRIMEIRA (1kg),marca,Contra-filé,Alcatra,Coxão Mole,Total,Media,Quantidade	,TOTAL
+CARNE DE PRIMEIRA (1kg),preço,32.8,32.8,32.8,98.4,32.8,3,98.4
+CARNE DE SEGUNDA (1kg),marca,Acém,Costela,Coxão Duro,Total,Media,Quantidade	,TOTAL
+CARNE DE SEGUNDA (1kg),preço,27.8,27.8,27.8,83.4,27.8,4,111.2
+FRANGO RESFRIADO INT. (1kg),marca,Frial,Sadia,xxxxxxx,Total,Media,Quantidade	,TOTAL
+FRANGO RESFRIADO INT. (1kg),preço,12.8,12.8,,25.6,12.8,5,64
+SALSICHA AVULSA (1kg),marca,Frial,Sadia,Pif-paf,Total,Media,Quantidade	,TOTAL
+SALSICHA AVULSA (1kg),preço,7.48,7.48,7.48,22.44,7.48,0.5,3.74
+LINGUIÇA TOSCANA FRESCA (1kg),marca,Frial,Sadia,Saudali,Total,Media,Quantidade	,TOTAL
+LINGUIÇA TOSCANA FRESCA (1kg),preço,12.9,12.9,12.9,38.7,12.9,0.3,3.87
+QUEIJO MUSSARELA FAT. (1kg),marca,Copatos,Quero,Vista Alegre,Total,Media,Quantidade	,TOTAL
+QUEIJO MUSSARELA FAT. (1kg),preço,28.9,28.9,28.9,86.7,28.9,0.5,14.45
+,,,,,Total,Media,Quantidade	,TOTAL
+,,,,,,,,
+SABÃO EM PÓ (500g),marca,Tixan Ypê,Brilhante,OMO,Total,Media,Quantidade	,TOTAL
+SABÃO EM PÓ (500g),preço,4.45,4.45,4.45,13.35,4.45,4,17.8
+SABÃO EM BARRA (unid.),marca,Ypê,Minuano,xxxxxxx,Total,Media,Quantidade	,TOTAL
+SABÃO EM BARRA (unid.),preço,2.38,2.38,,4.76,2.38,15,35.7
+ÁGUA SANITÁRIA (1L),marca,Ypê,Super globo,Qboa,Total,Media,Quantidade	,TOTAL
+ÁGUA SANITÁRIA (1L),preço,3.4,3.4,3.4,10.2,3.4,2,6.8
+DETERGENTE (500 ml),marca,Ypê,Minuano,Limpol,Total,Media,Quantidade	,TOTAL
+DETERGENTE (500 ml),preço,1.95,1.95,1.95,5.85,1.95,2,3.9
+,,,,,Total,Media,Quantidade	,TOTAL
+,,,,,,,,
+PAPEL HIGIÊNICO (pac. 4 unid.),marca,Paradiso,Bob,Personal,Total,Media,Quantidade	,TOTAL
+PAPEL HIGIÊNICO (pac. 4 unid.),preço,4.9,4.9,4.9,14.7,4.9,3,14.7
+CREME DENTAL (tubo 90g),marca,Colgate,Sorriso,xxxxxxx,Total,Media,Quantidade	,TOTAL
+CREME DENTAL (tubo 90g),preço,3.49,3.49,,6.98,3.49,2,6.98
+SABONETE (90g),marca,Lux,Palmolive,Flor de Ypê ,Total,Media,Quantidade	,TOTAL
+SABONETE (90g),preço,1.19,1.19,1.19,3.57,1.19,10,11.9
+DESODORANTE SPRAY (100ml),marca,Rexona ,Monange,xxxxxxx,Total,Media,Quantidade	,TOTAL
+DESODORANTE SPRAY (100ml),preço,8.9,8.9,,17.8,8.9,2,17.8
+ABSORVENTE (pac. 8 unid.),marca,Sym,Intimus,xxxxxxx,Total,Media,Quantidade	,TOTAL
+ABSORVENTE (pac. 8 unid.),preço,,,,,,,
+Valor Total,marca,,,,Total,322.62,,972.203
