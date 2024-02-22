@@ -6,30 +6,29 @@ import matplotlib.pyplot as plt
 import plots
 
 
-def encontrar_mais_baratos_por_mes(dados, mercado_vende_tudo):
-    mais_baratos = {}
-    for mes, mercados in dados.items():
-        mais_baratos[mes] = {"Alimentos": {}, "Limpeza": {}, "Higiene": {}}
-        if mes in mercado_vende_tudo:  # Verifica se há dados de mercado para este mês
-            mercados_permitidos = mercado_vende_tudo[mes]
-            for categoria in ["Alimentos", "Limpeza", "Higiene"]:
-                preco_mais_baixo = float("inf")
-                supermercado_mais_barato = ""
-                for mercado in mercados_permitidos:
-                    if mercado in mercados:  # Verifica se o mercado está presente nos dados
-                        preco_produto = mercados[mercado].get(categoria)
-                        if preco_produto is not None and preco_produto < preco_mais_baixo:
-                            preco_mais_baixo = preco_produto
-                            supermercado_mais_barato = mercado
-                if supermercado_mais_barato:  # Verifica se encontrou algum mercado para esta categoria
-                    mais_baratos[mes][categoria][supermercado_mais_barato] = preco_mais_baixo
-    return mais_baratos
+mais_baratos_no_mes_por_subcategoria_2023 = segregacao.encontrar_mais_baratos_por_mes_segregado_em_tipos(inicializarVar.separado_por_tipo_2023, inicializarVar.mercados_2023_vende_tudo)
 
-# Chamada da função para o ano de 2023 com a lista de nomes dos meses
-resultado = encontrar_mais_baratos_por_mes(inicializarVar.separado_por_tipo_2023, inicializarVar.mercados_2023_vende_tudo)
 
-print(resultado)
+'''
+    A função segregação.separado_por_tipo_2023 esta com problemas para efetuar o 
+    calculo em novembro de 2023, aparentemente o problema esta no mercado BH
+'''
+def print_mais_baratos_no_mes_por_subcategoria(dados):
 
-print(f'\n\n{inicializarVar.mercados_2023_vende_tudo["11 Novembro"]}')
+    for mes, categorias in dados.items():
+        print(f"{mes}:")
+        for categoria, mercados_precos in categorias.items():
+            print(f"  {categoria}:")
+            for mercado, preco in mercados_precos.items():
+                print(f"    - {mercado}: R${preco:.2f}")
 
-#plots.plotar_grafico_de_linhas_varição_por_subcategoria(resultado)
+
+def imprimir_dados_separados_por_tipo(dados):
+    for mes, lojas in dados.items():
+        print(mes)
+        for loja, categorias in lojas.items():
+            print(f"\t{loja}:")
+            for categoria, valor in categorias.items():
+                print(f"\t\t{categoria}: R${valor:.2f}")
+
+imprimir_dados_separados_por_tipo(inicializarVar.separado_por_tipo_2023)

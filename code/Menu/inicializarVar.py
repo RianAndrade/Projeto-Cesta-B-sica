@@ -55,4 +55,7 @@ variacao_2023 = calculos.varicao_percentual_ano(medias_por_mes_2023)
 separado_por_tipo_2022 = segregacao.separar_por_tipo('2022', list_2022, nomes_dos_meses_2022)
 separado_por_tipo_2023 = segregacao.separar_por_tipo('2023', list_2023, nomes_dos_meses_2023)
 
+mais_baratos_no_mes_por_subcategoria_2022 = segregacao.encontrar_mais_baratos_por_mes_segregado_em_tipos(separado_por_tipo_2022, mercados_2022_vende_tudo)
+mais_baratos_no_mes_por_subcategoria_2023 = segregacao.encontrar_mais_baratos_por_mes_segregado_em_tipos(separado_por_tipo_2023, mercados_2023_vende_tudo)
+
 #os.system('clear')

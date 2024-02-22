@@ -98,3 +98,33 @@ def op_3():
 
     else:
         print('Ano indisponível')
+
+def op_4():
+    os.system('clear')
+    linha()
+    print("Você escolheu a opção 4.")
+    linha()
+
+    print('Anos disponíveis\n -2022\n -2023')
+
+    linha()
+
+    ano = input('Qual ano você deseja: ')
+    os.system('clear')
+    print('Meses disponíveis para 2022')
+
+    linha()
+
+    if ano == '2022':
+        plots.imprimir_dados_separados_por_tipo(inicializarVar.separado_por_tipo_2022)
+
+        linha()
+
+    elif ano == '2023':
+        plots.imprimir_dados_separados_por_tipo(inicializarVar.separado_por_tipo_2023)
+
+        linha()
+
+    else:
+        print('Ano indisponível')
+

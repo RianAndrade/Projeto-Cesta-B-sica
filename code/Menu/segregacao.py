@@ -160,3 +160,23 @@ def separar_por_tipo(ano, list_ano, nomes_meses):
             else:
                 print(f"Arquivo não encontrado: {caminho_do_csv}")
     return mercados_preco_por_categoria
+
+
+def encontrar_mais_baratos_por_mes_segregado_em_tipos(dados, mercado_vende_tudo):
+    mais_baratos = {}
+    for mes, mercados in dados.items():
+        mais_baratos[mes] = {"Alimentos": {}, "Limpeza": {}, "Higiene": {}}
+        if mes in mercado_vende_tudo:  # Verifica se há dados de mercado para este mês
+            mercados_permitidos = mercado_vende_tudo[mes]
+            for categoria in ["Alimentos", "Limpeza", "Higiene"]:
+                preco_mais_baixo = float("inf")
+                supermercado_mais_barato = ""
+                for mercado in mercados_permitidos:
+                    if mercado in mercados:  # Verifica se o mercado está presente nos dados
+                        preco_produto = mercados[mercado].get(categoria)
+                        if preco_produto is not None and preco_produto < preco_mais_baixo:
+                            preco_mais_baixo = preco_produto
+                            supermercado_mais_barato = mercado
+                if supermercado_mais_barato:  # Verifica se encontrou algum mercado para esta categoria
+                    mais_baratos[mes][categoria][supermercado_mais_barato] = preco_mais_baixo
+    return mais_baratos

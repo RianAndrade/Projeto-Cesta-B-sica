@@ -1,6 +1,13 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+def imprimir_dados_separados_por_tipo(dados):
+    for mes, lojas in dados.items():
+        print(mes)
+        for loja, categorias in lojas.items():
+            print(f"\t{loja}:")
+            for categoria, valor in categorias.items():
+                print(f"\t\t{categoria}: R${valor:.2f}")
 
 def plot_grafico_medias_variacao(medias_por_mes, variacao_percentual):
 
