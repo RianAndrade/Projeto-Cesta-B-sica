@@ -52,5 +52,7 @@ medias_por_mes_2023 = calculos.calcular_media_acima_de_850(mes_a_mes_2023)
 variacao_2022 = calculos.varicao_percentual_ano(medias_por_mes_2022)
 variacao_2023 = calculos.varicao_percentual_ano(medias_por_mes_2023)
 
+separado_por_tipo_2022 = segregacao.separar_por_tipo('2022', list_2022, nomes_dos_meses_2022)
+separado_por_tipo_2023 = segregacao.separar_por_tipo('2023', list_2023, nomes_dos_meses_2023)
 
-os.system('clear')
+#os.system('clear')

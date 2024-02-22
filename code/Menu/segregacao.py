@@ -1,12 +1,33 @@
 """
-##Funções de segregação
+Funções de segregação
+
+Este módulo contém funções para processar e analisar dados da recolha de preços da cesta básica na cidade de Januária.
 
 """
 
 import pandas as pd
 import os
 
+def converter_str_int(valor_total):
+    if isinstance(valor_total, str):
+                    if valor_total.startswith("R$"):
+                        valor_total = valor_total.replace(",", ".")
+                        valor_total = valor_total.replace(".", "", 1)
+                        valor_total = valor_total.replace("R$", "").strip()
+    return valor_total
+
 def separamento_por_mes(ano, mes, list_ano):
+    """
+    Separa os dados por mês e ano.
+
+    Parâmetros:
+    - ano (str): Ano dos dados a serem separados.
+    - mes (str): Mês dos dados a serem separados.
+    - list_ano (list): Lista de arquivos contendo os dados.
+
+    Retorna:
+    - valores_totais (dict): Dicionário contendo os valores totais de cada mercado para o mês e ano especificados.
+    """
     sublista_mes = [item for item in list_ano if item.startswith(ano + ' - ' + mes)]
     valores_totais={}
     erros_dic={}
@@ -15,18 +36,13 @@ def separamento_por_mes(ano, mes, list_ano):
         caminho_do_csv = '/home/rias/Documentos/Felipeaaaummm/'+ ano +'/' + mercado
         nome_do_mercado = os.path.splitext(mercado.replace(ano + ' - ' + mes, '').replace('.csv', '').strip())[0]
 
-    # Verifica se o arquivo existe antes de tentar lê-lo
+        # Verifica se o arquivo existe antes de tentar lê-lo
         if os.path.exists(caminho_do_csv):
             df = pd.read_csv(caminho_do_csv, index_col=[0, 1])
             valor_total = df.xs(('Valor Total', 'marca'))['Total/Int'].values[0]
 
-
             if valor_total != '#DIV/0!' and valor_total != '#VALUE!' and valor_total != 'TOTAL' and valor_total != '#REF!':
-                if isinstance(valor_total, str):
-                    if valor_total.startswith("R$"):
-                        valor_total = valor_total.replace(",", ".")
-                        valor_total = valor_total.replace(".", "", 1)
-                        valor_total = valor_total.replace("R$", "").strip()
+                valor_total = converter_str_int(valor_total)
                 valores_totais[nome_do_mercado] = valor_total
             else:
                 print("Encontrado Erro!!!")
@@ -35,12 +51,18 @@ def separamento_por_mes(ano, mes, list_ano):
             print(f"Arquivo não encontrado: {caminho_do_csv}")
     return valores_totais #erros_dic
 
-
-
-# Função para calcular a média dos valores acima de 850 em um dicionário
-
-
 def verificar_se_vende_todos(ano, mes, list_ano):
+    """
+    Verifica se todos os produtos estão disponíveis em todos os mercados para um determinado mês e ano.
+
+    Parâmetros:
+    - ano (str): Ano dos dados a serem verificados.
+    - mes (str): Mês dos dados a serem verificados.
+    - list_ano (list): Lista de arquivos contendo os dados.
+
+    Retorna:
+    - vendem_todos (list): Lista de mercados que vendem todos os produtos para o mês e ano especificados.
+    """
     sublista_mes = [item for item in list_ano if item.startswith(ano + ' - ' + mes)]
     vendem_todos= []
     print()
@@ -48,7 +70,7 @@ def verificar_se_vende_todos(ano, mes, list_ano):
         caminho_do_csv = '/home/rias/Documentos/Felipeaaaummm/'+ ano +'/' + mercado
         nome_do_mercado = os.path.splitext(mercado.replace(ano + ' - ' + mes, '').replace('.csv', '').strip())[0]
 
-    # Verifica se o arquivo existe antes de tentar lê-lo
+        # Verifica se o arquivo existe antes de tentar lê-lo
         if os.path.exists(caminho_do_csv):
             tem_todos = True
             df = pd.read_csv(caminho_do_csv, index_col=[0, 1])
@@ -71,6 +93,16 @@ def verificar_se_vende_todos(ano, mes, list_ano):
     return vendem_todos
 
 def os_mercados_mais_baratos_por_mes(mes_a_mes, mercados_vende_tudo):
+    """
+    Encontra os mercados mais baratos para cada mês.
+
+    Parâmetros:
+    - mes_a_mes (dict): Dicionário contendo os preços para cada mês.
+    - mercados_vende_tudo (dict): Dicionário contendo os mercados que vendem todos os produtos para cada mês.
+
+    Retorna:
+    - mercados_mais_baratos_por_mes (dict): Dicionário contendo os três mercados mais baratos para cada mês.
+    """
     mercados_mais_baratos_por_mes = {}
 
     for mes, mercados in mercados_vende_tudo.items():
@@ -92,3 +124,39 @@ def os_mercados_mais_baratos_por_mes(mes_a_mes, mercados_vende_tudo):
             mercados_mais_baratos_por_mes[mes] = tres_mais_baratos
 
     return mercados_mais_baratos_por_mes
+
+def separar_por_tipo(ano, list_ano, nomes_meses):
+    mercados_preco_por_categoria = {}
+
+    for mes in nomes_meses:
+        sublista_mes = [item for item in list_ano if item.startswith(ano + ' - ' + mes)]
+        mercados_mes = {}
+        for mercado in sublista_mes:
+            caminho_do_csv = '/home/rias/Documentos/Felipeaaaummm/' + ano + '/' + mercado
+            nome_do_mercado = os.path.splitext(mercado.replace(ano + ' - ' + mes, '').replace('.csv', '').strip())[0]
+
+            if os.path.exists(caminho_do_csv):
+                df = pd.read_csv(caminho_do_csv, index_col=[0, 1])
+                all_indice = df.index.tolist()
+                
+                contador_nan, preco_alimentos, preco_limpeza, preco_higiene = 0, 0, 0, 0
+
+                for nome_produto, categoria in all_indice:
+                    if pd.isna(nome_produto):
+                        contador_nan += 1
+                    elif categoria == 'preço':
+                        preco_produto = df.loc[nome_produto]['Total/Int'].iloc[1]
+                        if preco_produto not in ['#DIV/0!', 'TOTAL', '#VALUE!', '#REF!', '########'] and not pd.isna(preco_produto):
+                            preco_produto = converter_str_int(preco_produto)
+                            if contador_nan < 2:
+                                preco_alimentos += float(preco_produto)
+                            elif contador_nan < 4:
+                                preco_limpeza += float(preco_produto)
+                            else:
+                                preco_higiene += float(preco_produto)
+                    elif nome_produto == 'Valor Total':
+                        mercados_mes[nome_do_mercado] = {'Alimentos': round(preco_alimentos, 2), 'Limpeza':round(preco_limpeza, 2), 'Higiene':round(preco_higiene, 2)}
+                        mercados_preco_por_categoria[mes] = mercados_mes
+            else:
+                print(f"Arquivo não encontrado: {caminho_do_csv}")
+    return mercados_preco_por_categoria

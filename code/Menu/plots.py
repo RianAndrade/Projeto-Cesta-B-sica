@@ -3,6 +3,18 @@ import seaborn as sns
 
 
 def plot_grafico_medias_variacao(medias_por_mes, variacao_percentual):
+
+    """
+    Plota um gráfico de barras das médias mensais e inclui a variação percentual entre os meses.
+
+    Parâmetros:
+    - medias_por_mes (dict): Dicionário contendo as médias por mês.
+    - variacao_percentual (dict): Dicionário contendo a variação percentual entre os meses.
+
+    Retorna:
+    - None
+    """
+        
     nome_mes = list(medias_por_mes.keys())
     valores = [float(valor) for valor in medias_por_mes.values()]
 
@@ -39,6 +51,19 @@ def plot_grafico_medias_variacao(medias_por_mes, variacao_percentual):
 
 
 def plotar_mercados_de_um_mes(valores_totais, ano, mes):
+
+    """
+    Plota um gráfico de barras dos valores totais dos mercados para um determinado mês e ano.
+
+    Parâmetros:
+    - valores_totais (dict): Dicionário contendo os valores totais de cada mercado.
+    - ano (str): Ano dos dados a serem plotados.
+    - mes (str): Mês dos dados a serem plotados.
+
+    Retorna:
+    - None
+    """
+
     # Separando chaves e valores
     nomes_mercados = list(valores_totais.keys())
     valores = [float(valor) for valor in valores_totais.values()]
@@ -78,6 +103,15 @@ def plotar_mercados_de_um_mes(valores_totais, ano, mes):
 
 
 def plotar_os_mais_baratos(mais_barato_ano):
+    """
+    Plota um gráfico de barras dos três mercados mais baratos para cada mês.
+
+    Parâmetros:
+    - mais_barato_ano (dict): Dicionário contendo os três mercados mais baratos para cada mês.
+
+    Retorna:
+    - None
+    """
     # Cores para os mercados
     cores = ['b', 'g', 'r']
 
@@ -115,5 +149,42 @@ def plotar_os_mais_baratos(mais_barato_ano):
     plt.xticks(range(len(mais_barato_ano)), mais_barato_ano.keys())
 
     # Exibir o gráfico
+    plt.tight_layout()
+    plt.show()
+
+def plotar_grafico_de_linhas_varição_por_subcategoria(mais_barato_ano):
+    """
+    Plota um gráfico de linhas mostrando os preços mais baixos para cada categoria em cada mês.
+
+    Parâmetros:
+    - mais_barato_ano (dict): Dicionário contendo os preços mais baixos para cada categoria em cada mês.
+
+    Retorna:
+    - None
+    """
+    # Categorias disponíveis
+    categorias = ["Alimentos", "Limpeza", "Higiene"]
+
+    # Cores para as categorias
+    cores = ['b', 'g', 'r']
+
+    # Configurações do gráfico
+    plt.figure(figsize=(12, 6))
+
+    # Plotagem
+    for i, categoria in enumerate(categorias):
+        meses = list(mais_barato_ano.keys())
+        precos = [list(mais_barato_ano[mes][categoria].values())[0] for mes in meses]
+        plt.plot(meses, precos, marker='o', linestyle='-', color=cores[i], label=categoria)
+
+    # Configurações dos eixos
+    plt.xlabel('Meses')
+    plt.ylabel('Preços')
+    plt.title('Preços mais baixos por categoria em cada mês')
+    plt.legend()
+
+    # Exibir o gráfico
+    plt.grid(True)
+    plt.xticks(rotation=45)
     plt.tight_layout()
     plt.show()
