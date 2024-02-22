@@ -8,6 +8,7 @@ def menu():
     print("3. Plotar mercados mais baratos de um ano mês a mês")
     print("4. Escrever o preço dos mercados por subcategoria")
     print("5. Escrever o mais barato mes por subcategoria")
+    print("6. Plotar variação do mais barato mes por subcategoria")
     print("0. Sair")
 
     op = input("Escolha uma opção: ")
@@ -30,6 +31,8 @@ def main():
             opt.op_4()
         elif opcao == '5':
             opt.op_5()
+        elif opcao == '6':
+            opt.op_6()
         elif opcao == '0':
             print("Saindo do programa...")
             break

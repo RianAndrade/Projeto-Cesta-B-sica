@@ -158,5 +158,33 @@ def op_5():
     else:
         print('Ano indisponível')
 
+def op_6():
+    os.system('clear')
+    linha()
+    print("Você escolheu a opção 5.")
+    linha()
+
+    print('Anos disponíveis\n -2022\n -2023')
+
+    linha()
+
+    ano = input('Qual ano você deseja: ')
+    os.system('clear')
+    print('Meses disponíveis para 2022')
+
+    linha()
+
+    if ano == '2022':
+        plots. plotar_grafico_de_linhas_varição_por_subcategoria(inicializarVar.mais_baratos_no_mes_por_subcategoria_2022)
+
+        linha()
+
+    elif ano == '2023':
+        plots. plotar_grafico_de_linhas_varição_por_subcategoria(inicializarVar.mais_baratos_no_mes_por_subcategoria_2023)
+
+        linha()
+
+    else:
+        print('Ano indisponível')
 
 

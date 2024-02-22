@@ -10,7 +10,7 @@ mais_baratos_no_mes_por_subcategoria_2023 = segregacao.encontrar_mais_baratos_po
 
 
 '''
-    A função segregação.separado_por_tipo_2023 esta com problemas para efetuar o 
+    1 - Problema encontrado : A função segregação.separado_por_tipo_2023 esta com problemas para efetuar o 
     calculo em novembro de 2023, aparentemente o problema esta no mercado BH
 '''
 
