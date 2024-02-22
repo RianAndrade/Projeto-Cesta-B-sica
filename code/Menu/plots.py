@@ -9,6 +9,16 @@ def imprimir_dados_separados_por_tipo(dados):
             for categoria, valor in categorias.items():
                 print(f"\t\t{categoria}: R${valor:.2f}")
 
+def print_mais_baratos_no_mes_por_subcategoria(dados):
+
+    for mes, categorias in dados.items():
+        print(f"{mes}:")
+        for categoria, mercados_precos in categorias.items():
+            print(f"  {categoria}:")
+            for mercado, preco in mercados_precos.items():
+                print(f"    - {mercado}: R${preco:.2f}")
+
+
 def plot_grafico_medias_variacao(medias_por_mes, variacao_percentual):
 
     """
