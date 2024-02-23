@@ -8,5 +8,4 @@ nome_2023 = ['2023 - 1 Janeiro BOM PREÇO.csv', '2023 - 1 Janeiro PÃO DE MEL(BH
 #caminhos = [os.path.join(pasta, nome) for nome in os.listdir(pasta)]
 print(len(nome_2023))
 nome = []
-funcoes_de_tratamento.convert_download('CopiaProjetoFelipe/PESQUISA 2022/  PROJETO DE EXTENSÃO - NOVEMBRO_.xlsx', 'Novembro', "2022", nome, 8)
-print(nome)
+
