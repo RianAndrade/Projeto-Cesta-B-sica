@@ -12,7 +12,7 @@ compreensível ao computador e para o tratemento e leitura destes dados foi usad
 ## Modelo:
 
 <div align="center">
-  <img src="https://github.com/RianAndrade/Pokedex-Com-PokeAPI/blob/main/images/pokedexModelo.png"  width="500"/>
+  <img src="https://github.com/RianAndrade/Projeto-Cesta-B-sica/blob/main/grafico.png"  width="500"/>
 </div>
 
 
