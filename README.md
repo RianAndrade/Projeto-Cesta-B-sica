@@ -8,7 +8,9 @@
 ### Como foi feito:
 
 - 🤔 Nesta aplicação foram encontrados diversos problemas com foco principal no tratamento dos dados, a coleta de preços dos produtos foi armazena em tabelas excel cujas quais não tinha um padrão a ser seguido e muito menos organizadas de forma 
-compreensível ao computador e para o tratemento e leitura destes dados foi usada a bibliotea **PANDAS** do **Python** para tanto tratar os dados tanto para traforma-los em um formato de mair desenpenho operecional queno caso foi o DataFrame
+compreensível ao computador e para o tratemento e leitura destes dados foi usada a bibliotea **PANDAS** do **Python** para tanto tratar os dados tanto para traforma-los em um formato de mair desenpenho operecional que no caso foi o DataFrame, todo esse processo pode ser acompanhado em: [Tratamento](https://github.com/RianAndrade/Projeto-Cesta-B-sica/tree/main/code/Tratamento)
+
+-
 ## Modelo:
 
 <div align="center">
