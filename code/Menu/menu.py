@@ -18,7 +18,6 @@ def menu():
 def main():
 
     while True:
-
         opcao = menu()
 
         if opcao == '1':

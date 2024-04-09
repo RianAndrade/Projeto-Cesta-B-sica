@@ -45,9 +45,10 @@ def plot_grafico_medias_variacao(medias_por_mes, variacao_percentual):
     fig, ax1 = plt.subplots(figsize=(12, 8), facecolor="#f5f5f5")
 
     ax = sns.barplot(x=nome_mes, y=valores, color=cor_azul)
+    ax.set_ylim(800)
 
     cor_vermelho_pastel = (1.0, 0.8, 0.8)
-    for limite in range(200, int(max(valores)) + 200, 200):
+    for limite in range(800, int(max(valores)) + 100, 100):
         ax1.axhline(limite, color='black', linestyle='--', linewidth=1)
 
     for i in range(len(nome_mes)-1):
@@ -61,9 +62,9 @@ def plot_grafico_medias_variacao(medias_por_mes, variacao_percentual):
     ax1.set_title('Médias Mensais e Variação Percentual')
 
     plt.xticks(range(len(nome_mes)), nome_mes, rotation=45, ha='right')
-    plt.yticks(range(0, int(max(valores)) + 200, 200))
+    plt.yticks(range(800, int(max(valores)) + 50, 50))
 
-    plt.savefig('grafico_com_linhas_subplots.png')
+    #plt.savefig('grafico_com_linhas_subplots.png')
     plt.show()
 
 

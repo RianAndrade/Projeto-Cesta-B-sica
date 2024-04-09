@@ -126,6 +126,20 @@ def os_mercados_mais_baratos_por_mes(mes_a_mes, mercados_vende_tudo):
     return mercados_mais_baratos_por_mes
 
 def separar_por_tipo(ano, list_ano, nomes_meses):
+    """
+    Separa os mercados por tipo, sendo os tipos Alimentos, Higiene e Limpeza.
+
+    Parâmetros:
+    - ano (str): Ano dos dados a serem verificados.
+    - mes (str): Mês dos dados a serem verificados.
+    - list_ano (list): Lista de arquivos contendo os dados.
+    -nomes_meses (list) : Lista do nome dos meses 
+
+    Retorna: mercados_preco_por_categoria (dict): Dicionário contendo os meses com todos os mercados e os preços separados por categoria 
+
+    - 
+    """
+    
     mercados_preco_por_categoria = {}
 
     for mes in nomes_meses:
